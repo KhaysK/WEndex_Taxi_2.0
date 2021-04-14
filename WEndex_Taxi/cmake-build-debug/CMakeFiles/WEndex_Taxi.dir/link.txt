@@ -1,3 +1,0 @@
-"C:\Programm\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\WEndex_Taxi.dir/objects.a
-C:\Programm\MinGW\bin\ar.exe cr CMakeFiles\WEndex_Taxi.dir/objects.a @CMakeFiles\WEndex_Taxi.dir\objects1.rsp
-C:\Programm\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\WEndex_Taxi.dir/objects.a -Wl,--no-whole-archive  -o WEndex_Taxi.exe -Wl,--out-implib,libWEndex_Taxi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WEndex_Taxi.dir\linklibs.rsp
