@@ -1,8 +1,0 @@
-﻿  WEndex_Taxi.cpp
-C:\Users\haysa\source\repos\WEndex_Taxi\WEndex_Taxi.cpp(236,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\haysa\source\repos\WEndex_Taxi\WEndex_Taxi.cpp(256,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\haysa\source\repos\WEndex_Taxi\WEndex_Taxi.cpp(366,92): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-C:\Users\haysa\source\repos\WEndex_Taxi\WEndex_Taxi.cpp(930,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\haysa\source\repos\WEndex_Taxi\WEndex_Taxi.cpp(949,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\haysa\source\repos\WEndex_Taxi\WEndex_Taxi.cpp(1093,27): warning C4018: <: несоответствие типов со знаком и без знака
-  WEndex_Taxi.vcxproj -> C:\Users\haysa\source\repos\WEndex_Taxi\Debug\WEndex_Taxi.exe

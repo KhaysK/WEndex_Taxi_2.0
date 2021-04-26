@@ -1,5 +1,5 @@
 
-# Home assigment #4, Khabib Khaysadykov B20-03
+# Home assigment #5, Khabib Khaysadykov B20-03
 # Wendex taxi project
 
 ![logo](https://pngimg.com/uploads/taxi_logos/taxi_logos_PNG23.png)
@@ -14,6 +14,12 @@ modes of the system: <br>
 <br>
 <hr>
 <h3>Tables in data base</h3>
+<li>Admin</li>
+<pre>
+    1 admin available :
+          <b>Name</b>       <b>Password</b>
+       John Wick - UKilledMyDog
+</pre>
 <li>Passenger</li>
 <pre>
     4 passengers available :
@@ -60,11 +66,11 @@ modes of the system: <br>
 <i>P.S. abow was mentioned some date not all</i>
 <br>
 <hr>
-Programm by itself is a terminal program where available 2 options: passenger menu and driver menu
+Programm by itself is a terminal program where available 3 options: passenger menu and driver menu and admin menu
 <br>
 <br>
 In passenger menu 
-then passenger can choose actions:
+ passenger can choose actions:
 
 ```bash
 Get history of orders
@@ -78,13 +84,23 @@ Get Coordinates
 Exit
 ```
 In driver
-then driver can choose actions:
+menu driver can choose actions:
 ```bash
 Get history of orders
 Get car
 Get car info
 Update status
 Get available orders
+Exit
+```
+In admin
+menu admin can choose actions:
+```bash
+Block passenger
+Unblock passenger
+Block driver
+Unblock driver
+Cars for validation
 Exit
 ```
 
@@ -107,6 +123,7 @@ For example:
 <li>GNU Make minimum (VERSION 3.17) </li>
 <li>clang (Version 6.0.0)</li>
 <li>IDE Visual Studio</li>
+<li>sqlite3_c_plus_plus - package</li>
 
 <hr>
 
@@ -116,7 +133,6 @@ To build the project, use the following command in bash terminal:
 
 ```bash
 cd <source path of Project>
-cmake -Bbuild -H.
-cmake --build build --target all
+gcc -o WEndex_Taxi_02 WEndex_Taxi_02.cpp 
 ```
 
